@@ -1,0 +1,10 @@
+メモ
+・多分templateはそのファイルに仕組まれたhtml文(reactでいうところのreturn内のjsx)
+・scriptはそのtempelateに対するjs文
+・vueモジュールからcreateAppコンポネント関数をimportしてmount関数を使うことで
+　htmlのdomに対して操作できる
+・createAPpの引数はオブジェクト型でdata(){みたいな感じで書いていくが
+　dataとかは決められている名前のようだ
+・dataの中でさらにオブジェクト型をreturn内に定義してそのプロパティ名が
+　htmlの中に組み込める
+　
